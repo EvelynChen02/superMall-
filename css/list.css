@@ -1,0 +1,139 @@
+.header .sk{
+position: absolute;
+top: 40px;
+left: 185px;
+height: 32px;
+padding:4px 0 0 14px;
+border-left: 1px solid #b1191a;
+}
+.sk_list  li{
+    float: left;
+    margin: 0 28px;
+    line-height: 47px;
+}
+.sk_con li{
+    float: left;
+    margin: 0 23px;
+    line-height: 47px;
+}
+.sk_con li a{
+    color: #666;
+    font-size: 14px;
+}
+.sk_list  li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_list  li a:hover{
+    color: #b1191a;
+}
+.sk_bd{
+    margin-top: 27px;
+}
+.sk_bd ul{
+    width: 1212px;
+}
+.sk_goods{
+    float: left;
+    width: 288px;
+    height: 460px;
+    margin: 0 13px 15px 0;
+    border: 1px solid transparent;
+}
+.sk_goods:hover{
+    border: 1px solid #b1191a;
+}
+.sk_goods_title{
+    margin: 10px  10px 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sk_goods_price{
+    margin: 0 10px;
+}
+.sk_goods_price em{
+color: #e60012;
+font-size:18px ;
+}
+
+.sk_goods_price del{
+    color: #a4a4a4;
+    font-size: 14px;
+}
+.sk_goods_progress{
+    margin: 0 10px;
+}
+.sk_goods_progress i,
+.sk_goods_progress em{
+    color: #ed282e;
+}
+.sk_bar{
+    display: inline-block;
+    width: 134px;
+    height: 12px;
+    margin: 10px 10px ;
+    border: 1px solid #e12228;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+.sk_bar_in{
+    height: 10px;
+    width: 87%;
+    background-color:#e12228 ;
+}
+
+ .sk_goods_buy{
+    /* position: absolute; */
+    /* bottom: 0; */
+    display: block;
+    width: 286px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+/* 翻页部分 */
+.page{
+    margin: 40px 0;
+    /* 里面的文字/行内/行内块元素都可以水平居中 */
+    text-align: center;
+}
+.page_num a{
+display: inline-block;
+width: 36px;
+height: 36px;
+border: 1px solid #ccc;
+background-color: #f7f7f7;
+line-height: 36px;
+}
+.page_num .pn_prev,
+.page_num .pn_next{
+    width: 82px;
+}
+.page_num .current,
+.page_num .dotted{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input{
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all .3s;
+}
+.page_skip input:focus{
+    width: 88px;
+    border:1px solid blue;
+}
+.page_skip button{
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+

@@ -1,0 +1,309 @@
+@font-face {font-family: "iconfont";
+	src: url('//at.alicdn.com/t/font_2022381_iql3dke5aui.eot?t=1598235932290'); /* IE9 */
+	src: url('//at.alicdn.com/t/font_2022381_iql3dke5aui.eot?t=1598235932290#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPUAAsAAAAACCQAAAOHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDSAqDFIJkATYCJAMYCw4ABCAFhG0HWhscBxHVmw7ZzwG3jUaXJsnQOMxX7ih08bGblZYtd9cYD/+/9vt97tyZpwltdEusTiKZJpdI8kjSVCmB0InytYT5vzbtEyqUuk1VhZKB0Ah5k+mKUvHbmunZ/d3tuOdN84H/8Pufy2nTEpjfznIda9lYk3pRHAcU2NiT5AJJ1Bum12AEfVpPoG1IMmaytrkbOFndLRDniiwAd1DIH9GhKVQPY7N4Vmqmx/QcT9P347/xaJKUhbrvwmGNHsp/+ehMqzXrAwaTng7hJAqMAZm4fjRcYRfXGFY7b2xnCuhqSjItNAJEqtR5zYFTW0K3+csjS0KhJCpOZBfMeO6SXz4dQuZXAELiVyRC8KsSoeBXZ44SVBTbNHAJvPFIYwTR3LkQVQcdvJyCnLw36jFzVnuwkshI5xjmIYmRz68+hANCryz1YXFl17S/LPX3273qi3dqPvod4o3X2pvVd9NvxaFDt3zcjn/k+Y8Pvj09H3qOnvV3v3zurGZ23h9m6+7dtXJG8+3x3bnq79+3e/rcSvq1/7OzkDWxpyQLbt3sRoBWpntllewJ10H5xmj30uLsXH//jx+wxt336PXw9fDr8bzv2RMeXeNZ4yX2wNpXa1drV0f3mSenSAyXFnFoa3G5/UJkYHUX8Qy/HXzcvfHjlK7soAk55G07qcHNCU8/P3367OmewMjA5Z8/o/YE7Yn68XPv4cAg2ARQa2wMqwHUR9lwdhSA9K57GnX+xv5k/QEoUnzZ5W/gcvhXyJh78T/OOQN8KrUhU0qt2QF7D2AhQoBm2hwTsiQX7FpZ5ax4FyKAyvoSAQloNxXAviw9ftIS9UNHEji+GySOQqHAicZmYjKUnGVDhVMGbUnqJnd4I1hMbgEj5gEwPFwGHTePgeXhBdaO+APs+fkLDjyCBV5veM/pLDYUvopggWI9mliPFFG1SK2a8nN0J5anTALZsydyLyY2xYoyUtPP3jpswYTGANsaOZNSCUlENaNasBk2mVRkJeokFmmqgVJrYVqa9PSiVFE1A68KgQkoTA+ZsB6iEKkspKE6xV/Q74TJppgIyEfRnLEXRtgo9SMZUqVDYOsEFqiislxis4YsE0VJEAmhMkNqgQ4zNS4VYn1uNQkTUakMGA6rQmluOQlWkMpfZFblGmirN60iRRE5yqiiwfFUESxUneKmBTLsiSIbKGczqNYxUSDcuiee3MsBAAA=') format('woff2'),
+	url('//at.alicdn.com/t/font_2022381_iql3dke5aui.woff?t=1598235932290') format('woff'),
+	url('//at.alicdn.com/t/font_2022381_iql3dke5aui.ttf?t=1598235932290') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+	url('//at.alicdn.com/t/font_2022381_iql3dke5aui.svg?t=1598235932290#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-jiantou:before {
+	content: "\e622";
+  }
+  
+  .icon-jiantou1:before {
+	content: "\e618";
+  }
+  
+  .icon-right:before {
+	content: "\e642";
+  }
+  
+  .icon-shop_car:before {
+	content: "\e614";
+  }
+  
+  .icon-xiangxia:before {
+	content: "\e652";
+  }
+  
+  
+  
+  
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.style-color{
+	color:#c81623;
+}
+.spacer{
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 11px 15px 0;
+}
+/* 头部区域 */
+.shortcut{
+	height: 33px;
+	background-color: #f1f1f1;
+	line-height: 33px;
+}
+/* 在html需要给每一个li加浮动 很麻烦  */
+.shortcut li {
+	float: left;
+}
+
+.header{
+	position: relative;
+	height: 105px;
+}
+.header .logo {
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 178px;
+	height: 60px;
+
+}
+.header .logo a{
+	overflow: hidden;
+	text-indent: -999px;
+	display: block;
+	width: 178px;
+	height: 60px;
+	background: url(../img/logo_03.png);
+}
+.search{
+	position: absolute;
+	left: 347px;
+	top:24px ;
+}
+.search .sou{
+	width: 455px;
+	height: 36px;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+	color: #989898;
+	font-size: 14px;
+	/* border-right: none; */
+}
+.search .btn{
+	width: 79px;
+	height: 36px;
+	background-color: #b1191a;
+	color: #fff;
+	border: none;
+}
+
+/* 热词模块 */
+.hotwords{
+	position: absolute;
+	top:65px ;
+	left: 347px;
+}
+.hotwords a{
+	margin:0 12px;
+}
+.shopcar{
+	position: absolute;
+	top: 24px;
+	left: 995px;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.shopcar .count{
+	position: absolute;
+	top: -5px;
+	/* 数字增大时习惯性往左  我们这里设为左外边距 就可以了*/
+	left:100px;
+	height: 14px;
+	background-color:#e60012;
+	color: #fefefe;
+	line-height: 14px;
+    border-radius: 7px 7px 7px 0;
+}
+.shopcar::before{
+	 content: "\e614";
+	 margin-right: 6px;
+	 color: #da5555;
+	font-family: "iconfont";
+}
+.shopcar::after{
+	content: "\e642";
+	margin-left: 5px;
+   font-family: "iconfont";
+}
+/* 导航栏 */
+.nav{
+	height: 47px;
+	border-bottom: 2px solid #b1191a;
+	
+}
+.dropdown{
+	width: 209px;
+	height: 47px;
+}
+.dropdown .dt{
+	width: 100%;
+	height: 100%;
+	background-color: #b1191a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 47px;
+}
+.dropdown .dd{
+	height: 467px;
+	margin-top: 2px;
+	background-color: #b1191a;
+}
+
+.menu-item{
+	width: 208px;
+	 height: 31px;
+	line-height: 31px; 
+	padding: 0 6px;
+	 margin-left: 1px; 
+	 transition: all .5s;
+}
+.menu-item:hover{
+background-color: #fff;
+transform: translateX(5px); 
+}
+.menu-item:hover a{
+color: #c81623;
+}
+
+.menu-item a{
+	color: #fff;
+	font-size: 14px;
+}
+.menu-item i{
+	float: right;
+	color: #fff;
+}
+
+
+.navitems{
+	margin-left: 10px;
+}
+.navitems li{
+	float: left;
+}
+.navitems li a{
+	display: block;
+	height: 47px;
+	padding: 0 30px ;
+	color: #333333;
+	font-size: 16px;
+	line-height: 47px;
+}
+
+/* 底部 */
+.footer{
+	height: 412px;
+	padding-top: 30px;
+	background-color: #f5f5f5;
+}
+/* 服务模块 */
+.mod_service{
+	height: 83px;
+	border-bottom: 1px solid #ededed;
+}
+.mod_service li{
+	float: left;
+	width: 20%;
+	height: 83px;
+
+}
+.mod-service-icon{
+	float: left;
+	width: 53px;
+	height: 52px;
+	margin-left: 38px;
+	background: url(../img/icons.png) no-repeat;
+}
+
+.icon-zheng{
+background-position: -250px 0;
+}
+ .icon-kuai{
+	background-position: -255px -54px;
+} 
+.icon-bao{
+	background-position: -256px -103px;
+} 
+.icon-te{
+	background-position: -255px -155px;
+} 
+.icon-bang{
+	background-position: -255px -209px;
+} 
+.mod_service .mod_service-tit{
+	float: left;
+	margin-left: 5px;
+}
+.mod_service h5{
+	margin: 7px 0;
+}
+
+.mod_help{
+	height: 188px;
+	border-bottom: 1px solid #ededed;
+}
+
+.mod-help-item{
+	float: left;
+	width: 16.66%;
+	padding: 24px 0 0 54px;
+}
+.mod-help-item dt{
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+}
+.mod-help-item dd{
+	height: 20px;
+	font-size: 12px;
+}
+.mod-help-item .help-app{
+	padding-left: 15px;
+}
+.mod-help-item dd img{
+	margin:3px 0;
+}
+.mod-help-item p{
+	padding-left: 15px;
+}
+.mod_copyright{
+	text-align: center;
+}
+.mod_copyright-links{
+	margin:20px 0 15px 0;
+}
+.mod_copyright-info{
+	line-height: 30px;
+}
